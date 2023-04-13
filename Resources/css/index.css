@@ -1,0 +1,107 @@
+body {
+    background-image: url("../images/10155-08_540x.jpg");
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#container {
+  color: black;
+  padding: 10px;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rgba(186, 224, 226, 0.9);
+}
+  
+#header {
+    background-image: url("../images/10155-08_540x.jpg");
+    padding: 5px 0px 5px 0px;
+    text-align: left;
+}
+
+img {
+    float: left;
+    margin-left: 10px;margin-top: 10px;
+    border: black solid 1px;
+    max-width: 95px;
+}
+
+h1 {
+    color: #fff;
+    padding: 5px 0px 20px 120px;
+    margin: 5px 0px 0px 0px;
+    background-color: rgba(186, 224, 226, 0.3) ;
+}
+h2 {
+    color: #fff;
+    padding: 5px 0px 10px 120px;
+    margin-top: 0px;
+    font-size: 14px;
+    background-color: rgba(186, 224, 226, 0.3);
+}
+
+.navbar {
+    display: flex;
+    background-color: #777;
+    justify-content: space-between;
+    position: sticky;
+    top: 0px;
+}
+
+.navbar a {
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.navbar a:hover {
+    background-color: rgb(213, 99, 219, .7);
+    color: black;
+  }
+
+#work, #education, #profile {
+   display: flex;
+   color: rgb(213, 99, 219);
+   font-size: 25px;
+   padding: 5px;
+   padding-top: 50px;
+
+}
+
+.row {
+    color: black;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 5px;
+    border: black solid 1px;
+}
+
+.paragraph {
+    padding: 5px;
+}
+
+a {
+    color: #0073ea;
+    text-decoration: none;
+}
+.date {
+    background-color: rgb(213, 99, 219, .6);
+    color: #fff;    
+    margin-right: 0px;
+    flex: 15%;
+    padding: 5px;
+    
+}
+
+.job {
+    flex: 75%;
+    padding: 5px;
+}
+
+
+
+@media (max-width: 700px) {
+    .date, .job {
+      flex:100%
+    }
+}
